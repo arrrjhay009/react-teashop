@@ -1,38 +1,114 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/* ELEMENT SELECTORS */
+body {
+  background-image: url("https://github.com/KG-2023/Activity-Images-2023/blob/main/pexels-nikolay-osmachko-230477.jpg?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  padding: 20px;
+}
+
+div {
+  background-color: rgb(228, 202, 168);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1,
+h2,
+p {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 40px;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  font-size: 35px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+hr {
+  height: 0.5px;
+  background-color: rgb(228, 202, 168, 0.4);
+  border-color: rgba(228, 202, 168, 0.406);
+  box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.75);
 }
 
-.App-link {
-  color: #61dafb;
+footer {
+  font-size: 14px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* lvha */
+a:link {
+  color: #ff0000;
+}
+
+/* visited link */
+a:visited {
+  color: #fff;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(228, 202, 168);
+}
+
+/* selected link */
+a:active {
+  color: #0000ff;
+}
+
+/* CLASSNAME SELECTORS */
+
+.teaMenu {
+  background-color: rgba(228, 202, 168, 0.397);
+  padding: 20px;
+  max-width: 500px;
+}
+
+.top-line {
+  width: 50%;
+}
+
+.established {
+  font-style: italic;
+}
+
+.teaItem p {
+  /* background-color: green; */
+  display: inline-block;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.teaFlavor,
+.teaCollection {
+  /* background-color: orangered; */
+  text-align: left;
+  width: 75%;
+}
+
+.teaPrice,
+.collectionPrice {
+  /* background-color: yellow; */
+  text-align: right;
+  width: 25%;
+}
+
+.bottom-line {
+  margin-top: 25px;
+  margin-bottom: 30px;
 }
