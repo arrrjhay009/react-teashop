@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-teashop/static/css/main.19fc2c4e.css",
+    "main.css": "/react-teashop/static/css/main.1269e784.css",
     "main.js": "/react-teashop/static/js/main.1e05508b.js",
     "static/js/787.e957a8e5.chunk.js": "/react-teashop/static/js/787.e957a8e5.chunk.js",
     "index.html": "/react-teashop/index.html",
-    "main.19fc2c4e.css.map": "/react-teashop/static/css/main.19fc2c4e.css.map",
+    "main.1269e784.css.map": "/react-teashop/static/css/main.1269e784.css.map",
     "main.1e05508b.js.map": "/react-teashop/static/js/main.1e05508b.js.map",
     "787.e957a8e5.chunk.js.map": "/react-teashop/static/js/787.e957a8e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.19fc2c4e.css",
+    "static/css/main.1269e784.css",
     "static/js/main.1e05508b.js"
   ]
 }
